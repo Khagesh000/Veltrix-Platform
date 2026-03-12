@@ -9,6 +9,7 @@ __pycache__/
 # Django
 db.sqlite3
 *.log
+celery_log.txt
 celery_log/
 logs/
 media/
