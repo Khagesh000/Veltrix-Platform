@@ -1,0 +1,7 @@
+# requirements.txt additions
+django-redis>=5.2.0
+redis>=4.5.0
+celery>=5.2.0
+hiredis>=2.0.0  # Faster Redis parser
+django-celery-beat>=2.4.0
+psycopg2-binary>=2.9.0  # For connection pooling
