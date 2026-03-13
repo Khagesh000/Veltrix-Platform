@@ -1,5 +1,7 @@
 # Python
 venv/
+env/
+ENV/
 __pycache__/
 *.pyc
 *.pyo
@@ -14,24 +16,46 @@ celery_log/
 logs/
 media/
 staticfiles/
+*.pot
+*.pyc
+local_settings.py
 
 # Environment
 .env
 *.env
+.env.local
+.env.production
 
 # IDE
 .vscode/
 .idea/
 *.swp
 *.swo
+*.sublime-*
+.DS_Store
 
 # OS
 .DS_Store
 Thumbs.db
+desktop.ini
+*.log
 
 # Frontend
-node_modules/
-.next/
-out/
-build/
-dist/
+veltrix_frontend/node_modules/
+veltrix_frontend/.next/
+veltrix_frontend/out/
+veltrix_frontend/build/
+veltrix_frontend/dist/
+veltrix_frontend/.env.local
+veltrix_frontend/.env.production
+
+# Backend
+__pycache__/
+*.py[cod]
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
